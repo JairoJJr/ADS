@@ -11,10 +11,17 @@ def cadastrar(cadastro):
 def consultar(cadastro):
     if len(cadastro) == 0:
         print("\033[31mOpção inválida. O Cadastro está vazio.\033[m")
-    for i in range(0, len(cadastro)):
-        print(f"{i+1} - \033[33m{cadastro[i]}\033[m")
+    else:
+        for i in range(0, len(cadastro)):
+            print(f"{i+1} - \033[33m{cadastro[i]}\033[m")
     return
 
+def ultimo(cadastro):
+    if len(cadastro) == 0:
+        print("\033[31mOpção inválida. O Cadastro está vazio.\033[m")
+    else:
+        print(f"O último cadastro foi \033[33m{cadastro[-1]}\033[m.")
+    return
 def deletar(cadastro):
     if len(cadastro) == 0:
         print("\033[31mOpção inválida. O Cadastro está vazio.\033[m")
