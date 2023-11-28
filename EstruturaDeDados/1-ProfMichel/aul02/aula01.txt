@@ -1,0 +1,10 @@
+fila = fifo (first in, first out)
+pilha = lifo (last in, first out)
+
+• clear() – limpa a fila; lista.clear()
+• isEmpty() – verifica se a fila está vazia;  
+• isFull() – verifica se a fila está cheia;
+• enqueue() – inseri (enfileira) o elemento no final da fila;  lista.append()
+• dequeue() – remove (desenfileira) o primeiro elemento da fila; lista.pop(0)
+• first() – retorna o primeiro elemento da fila sem removê-lo. print(lista[0])
+
